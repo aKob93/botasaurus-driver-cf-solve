@@ -15,7 +15,7 @@ pip install botasaurus-driver
 ## Bypassing Bot Detection: Code Example
 
 ```python
-from botasaurus_driver import Driver
+from botasaurus_driver_cf_solve import Driver
 
 driver = Driver()
 driver.google_get("https://www.g2.com/products/github/reviews.html?page=5&product_id=github", bypass_cloudflare=True)
