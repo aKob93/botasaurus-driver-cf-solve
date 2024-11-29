@@ -9,7 +9,7 @@ def get_description():
         return None
 
 setup(
-    name="botasaurus_driver",
+    name="botasaurus_driver_cf_solve",
     version='4.0.59',
     description="Super Fast, Super Anti-Detect, and Super Intuitive Web Driver",
     long_description_content_type="text/markdown",
@@ -51,6 +51,6 @@ setup(
         "Bug Reports": "https://github.com/omkarcloud/botasaurus-driver/issues",
         "Source": "https://github.com/omkarcloud/botasaurus-driver"
     },
-    packages=find_packages(include=["botasaurus_driver"]),
+    packages=find_packages(include=["botasaurus_driver_cf_solve"]),
     include_package_data=True,
 )
