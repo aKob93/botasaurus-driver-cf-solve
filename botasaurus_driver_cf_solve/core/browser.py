@@ -419,7 +419,9 @@ class Browser:
         try:
             if self.connection:
                 self.connection.send(cdp.browser.close())
-                self.connection = None
+                # if leave the line <self.connection = None> here, then the condition <if self.connection:>
+                # will not be fulfilled in function <close_browser_connection()>
+                # and closing connection will not occur <self.connection.close()>
         except Exception as e:
             print(e)
 
