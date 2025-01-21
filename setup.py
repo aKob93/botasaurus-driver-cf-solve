@@ -51,6 +51,6 @@ setup(
         "Bug Reports": "https://github.com/omkarcloud/botasaurus-driver/issues",
         "Source": "https://github.com/omkarcloud/botasaurus-driver"
     },
-    packages=find_packages(include=["botasaurus_driver_cf_solve", "botasaurus_driver_cf_solve.cdp", "botasaurus_driver_cf_solve.core"]),
+    packages=find_packages(include=["botasaurus_driver_cf_solve", "botasaurus_driver_cf_solve.*"]),
     include_package_data=True,
 )
